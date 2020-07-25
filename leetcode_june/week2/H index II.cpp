@@ -1,5 +1,5 @@
 class Solution {
-publi:
+public:
     int hIndex(vector<int>&v)
     {
         sort(v.begin(),v.end(),greater<int>());
